@@ -49,7 +49,7 @@ class RevMoon
     # if previous match isn't present, it's free to assign ('matchable')
     return false unless previous = matches[s_item]
     
-    # caouldn't match because of split values for a single symbol
+    # couldn't match because of split values for a single symbol
     previous != d_item
   end
 
